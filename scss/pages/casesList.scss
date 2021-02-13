@@ -1,0 +1,19 @@
+.cases_banner{
+    background-image: url(https://i.imgur.com/Cn0xAaM.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 0;
+    .dark-mask{
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 6.5rem 0;
+    }
+    .banner_content{
+        color: #fff;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        .lead{
+            margin-bottom: 0;
+        }
+    }
+}

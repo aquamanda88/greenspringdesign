@@ -1,0 +1,218 @@
+//Banner 主視覺
+.banner{
+    background-image: url(https://i.imgur.com/5xjilDR.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 6.5rem 0;
+    margin-bottom: 0;
+    .dark-mask{
+        background-color: rgba(92, 107, 76, 0.5);
+    }
+    .banner_content{
+        color: #fff;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        .lead{
+            margin-bottom: 0;
+        }
+    }
+}
+
+.bannerSlogan{
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+}
+
+//快速搜尋
+.quicklySearch{
+    background-image: url(https://i.imgur.com/rM3QuSA.jpg);
+    .light-mask{
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+    .contentSearch{
+        width: 960px;
+        margin: 0 auto;
+        .searchTitle{
+            font-size: 2.5rem; //40px
+            line-height: 3.75rem; //60px
+            margin-bottom: 1rem;
+        }
+        .searchContent{
+            font-size: 1.5rem; //24px
+            line-height: 2.25rem; //36px
+            margin-bottom: 3rem;
+        }
+        .searchBtn{
+            padding: 0 2.5rem; //0 40px
+        }
+    }
+}
+
+// .mostHot_designer & .onlineReservation 共通樣式
+.basicTitle{
+    margin-bottom: 0.25rem;
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 700;
+}
+.basicContent{
+    margin-bottom: 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
+
+//本月熱門設計師
+.mostHot_designer{
+    .imgCube{
+        height: 120px;
+        overflow: hidden;
+    }
+    .imgCube:hover{
+        .card-img-top{
+            transform: scale(1.25);
+        }
+    }
+    .card-title{
+        margin-bottom: 0.25rem;
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+    }
+    .card-para{
+        margin-bottom: 0.75rem;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    .card-img-top{
+        height: 120px;
+        transition: transform .7s;
+    }
+    .card-img-top, .avatar{
+        background-position: center;
+        background-size: cover;
+    }
+    .Emily_work{
+        background-image: url(https://i.imgur.com/MBm2vuH.jpg);
+    }
+    .Steven_work{
+        background-image: url(https://i.imgur.com/S62UfLX.jpg);
+    }
+    .Gina_work{
+        background-image: url(https://i.imgur.com/js1vbNC.jpg);
+    }
+    .avatar{
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        border: solid 3px #fff;
+        margin: -2.5rem auto -1rem auto;
+        position: relative;
+        z-index: 100;
+    }
+    .Emily_avatar{
+        background-image: url(https://i.imgur.com/DCU0BR3.jpg);
+    }
+    .Steven_avatar{
+        background-image: url(https://i.imgur.com/mCxjXjP.jpg);
+    }
+    .Gina_avatar{
+        background-image: url(https://i.imgur.com/i99N8Qe.jpg);
+    }
+    .bookingBtn{
+        width: 160px;
+    }
+}
+
+//線上預約
+.gridBlock{
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.gridImg, .gridImg-half{
+    transition-duration: 500ms;
+}
+.gridImg:hover, .gridImg-half:hover{
+    opacity: 0.7;
+}
+.gridImg{
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    .dark-mask{
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 350px;
+    }
+}
+.gridImg-half{
+    background-position: center;
+    background-size: cover;
+    height: 172px;
+    .dark-mask-half{
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 172px;
+    }
+}
+.casesList{
+    background-image: url(https://i.imgur.com/rfzvQYr.jpg);
+}
+.designPlan{
+    background-image: url(https://i.imgur.com/X8ysdue.jpg);
+}
+.newHouse{
+    background-image: url(https://i.imgur.com/ALwmr8h.jpg);
+}
+.oldHouse{
+    background-image: url(https://i.imgur.com/R1Bov3X.jpg);
+}
+.ecology{
+    background-image: url(https://i.imgur.com/bBSODgM.jpg);
+}
+
+//資料統計清單
+.havedList{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(https://i.imgur.com/maBASij.jpg);
+    color: #fff;
+    .dark-mask{
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    .dataItem{
+        padding-left: 1rem;
+        padding-right: 1.875rem;
+        border-left: solid 3px #fff;
+        .dataTitle{
+            font-size: 3rem;
+            line-height: 4.5rem;
+        }
+        .dataPara{
+            font-size: 1.35rem;
+            line-height: 1.875rem;
+        }
+    }
+}
+
+//預約說明
+.bookingImg{
+    background-color: $secondary;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 160px;
+}
+.serviceImg{
+    background-image: url(https://pic.stackoverflow.wiki/uploadImages/1/163/97/188/2021/02/12/23/06/8d7952a0-5a9a-4460-8a5d-83723db1184f.svg);
+}
+.designerImg{
+    background-image: url(https://pic.stackoverflow.wiki/uploadImages/1/163/97/188/2021/02/12/23/06/1f80ff5e-49bf-41ca-acc8-8c4fb648e1d5.svg);
+}
+.finishImg{
+    background-image: url(https://pic.stackoverflow.wiki/uploadImages/1/163/97/188/2021/02/12/23/06/816d5734-7e28-404f-ba1d-001928a54f6e.svg);
+}
+
+form{
+    background-color: $secondary;
+    padding: 2.25rem 0;
+}

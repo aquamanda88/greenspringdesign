@@ -1,0 +1,60 @@
+body{
+    font-family: 'Bitter', 'Noto Sans TC', 'Noto Serif TC', sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    color: $primary;
+}
+a{
+    display: block;
+}
+a:hover{
+    text-decoration: none;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+li{
+    list-style: none;
+}
+h1{
+    margin-bottom: 0;
+}
+nav{
+    box-shadow: 0px 8px 20px -20px #000;
+    .navbar-brand{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .navbar-collapse{
+        flex-grow: 0;
+    }
+    .navbar-nav .nav-link{
+        font-weight: 400;
+    }
+}
+.footer-otherLinks{
+    padding-top: 3.75rem; //60px
+    padding-bottom: 1.25rem; //20px
+    .footerLogo{
+        width: 120px;
+        margin-bottom: 1.5rem; //24px
+    }
+    h5{
+        font-weight: 700;
+        margin-bottom: 1.5rem; //24px
+    }
+    ul{
+        padding-left: 0;
+    }
+    .footer-linksItem{
+        margin-bottom: 1rem; //16px
+    }
+    .linkBtn, p{
+        font-weight: 500;
+    }
+    .linkBtn{
+        font-size: 1.25rem; //20px
+        line-height: 1.875rem; //30px
+    }  
+}
