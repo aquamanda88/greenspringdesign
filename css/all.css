@@ -12619,29 +12619,34 @@ nav .navbar-nav .nav-link {
   line-height: 1.875rem;
 }
 
-.mostHot_designer .imgCube {
+.designer_card {
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
+}
+
+.imgCube {
   height: 120px;
   overflow: hidden;
 }
 
-.mostHot_designer .imgCube:hover .card-img-top {
+.imgCube:hover .scaleHover {
   -webkit-transform: scale(1.25);
           transform: scale(1.25);
 }
 
-.mostHot_designer .card-title {
+.card-title {
   margin-bottom: 0.25rem;
   font-size: 1.25rem;
   line-height: 1.875rem;
 }
 
-.mostHot_designer .card-para {
+.card-para {
   margin-bottom: 0.75rem;
   font-size: 1rem;
   line-height: 1.5rem;
 }
 
-.mostHot_designer .card-img-top {
+.card-img-top {
   height: 120px;
   -webkit-transition: -webkit-transform .7s;
   transition: -webkit-transform .7s;
@@ -12649,24 +12654,24 @@ nav .navbar-nav .nav-link {
   transition: transform .7s, -webkit-transform .7s;
 }
 
-.mostHot_designer .card-img-top, .mostHot_designer .avatar {
+.card-img-top, .avatar {
   background-position: center;
   background-size: cover;
 }
 
-.mostHot_designer .Emily_work {
+.Emily_work {
   background-image: url(https://i.imgur.com/MBm2vuH.jpg);
 }
 
-.mostHot_designer .Steven_work {
+.Steven_work {
   background-image: url(https://i.imgur.com/S62UfLX.jpg);
 }
 
-.mostHot_designer .Gina_work {
+.Gina_work {
   background-image: url(https://i.imgur.com/js1vbNC.jpg);
 }
 
-.mostHot_designer .avatar {
+.avatar {
   width: 100px;
   height: 100px;
   border-radius: 100%;
@@ -12676,19 +12681,19 @@ nav .navbar-nav .nav-link {
   z-index: 100;
 }
 
-.mostHot_designer .Emily_avatar {
+.Emily_avatar {
   background-image: url(https://i.imgur.com/DCU0BR3.jpg);
 }
 
-.mostHot_designer .Steven_avatar {
+.Steven_avatar {
   background-image: url(https://i.imgur.com/mCxjXjP.jpg);
 }
 
-.mostHot_designer .Gina_avatar {
+.Gina_avatar {
   background-image: url(https://i.imgur.com/i99N8Qe.jpg);
 }
 
-.mostHot_designer .bookingBtn {
+.bookingBtn {
   width: 160px;
 }
 
@@ -12804,7 +12809,7 @@ form {
 .cases_banner {
   background-image: url(https://i.imgur.com/Cn0xAaM.jpg);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-attachment: fixed;
   margin-bottom: 0;
 }
@@ -12822,5 +12827,140 @@ form {
 
 .cases_banner .banner_content .lead {
   margin-bottom: 0;
+}
+
+.swiper-slide-active {
+  width: 100%;
+}
+
+.Michael_work {
+  background-image: url(https://i.imgur.com/sjLYU28.jpg);
+}
+
+.Michael_avatar {
+  background-image: url(https://images.unsplash.com/photo-1534471770828-9bde524ee634?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1500&q=80);
+}
+
+.swiper-button-prev, .swiper-button-next {
+  font-size: 2.5rem;
+  margin: 0 -20px;
+  color: #5C6B4C;
+}
+
+.swiper-button-prev i, .swiper-button-next i {
+  background-color: #fff;
+  border-radius: 100%;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after {
+  content: '';
+}
+
+.swiper-button-prev, .swiper-button-next {
+  border: none;
+  outline: none;
+}
+
+.casesList-items .casesList-item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 20%;
+          flex: 1 1 20%;
+  margin-bottom: 1.875rem;
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
+}
+
+.casesList-items .card-body {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.casesList-items .card-body .starLevel {
+  margin-bottom: 0.5rem;
+}
+
+.casesList-items .card-body .starLevel .fa-star, .casesList-items .card-body .starLevel .fa-star:hover {
+  color: #F5DF4D;
+}
+
+.casesList-items .card-body .starLevel .fa-star {
+  margin-right: 0.25rem;
+}
+
+.casesList-items .card-footer {
+  padding: 0;
+}
+
+.casesList-items .card-footer .card-footerBtn {
+  background-color: #fff;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.casesList-items .card-footer .card-footerBtn:hover {
+  background-color: #F0F0F0;
+  color: #fff;
+  -webkit-transition-duration: all 0.5s;
+          transition-duration: all 0.5s;
+}
+
+.casesList-items .card-footer .card-footerBtn:first-child {
+  border-bottom-right-radius: 0;
+}
+
+.casesList-items .card-footer .card-footerBtn:last-child {
+  border-bottom-left-radius: 0;
+}
+
+.casesList-items .casesImg_01 {
+  background-image: url(https://github.com/aquamanda88/greenspringdesign/blob/gh-pages/img/kitchen-item1.jpg?raw=true);
+}
+
+.casesList-items .casesImg_02 {
+  background-image: url(https://github.com/aquamanda88/greenspringdesign/blob/gh-pages/img/livingRoom-item1.jpg?raw=true);
+}
+
+.casesList-items .casesImg_03 {
+  background-image: url(https://github.com/aquamanda88/greenspringdesign/blob/gh-pages/img/bathroom-item1.jpg?raw=true);
+}
+
+.casesList-items .casesImg_04 {
+  background-image: url(https://github.com/aquamanda88/greenspringdesign/blob/gh-pages/img/livingRoom-item4.jpg?raw=true);
+}
+
+.casesList-items .casesImg_05 {
+  background-image: url(https://github.com/aquamanda88/greenspringdesign/blob/gh-pages/img/kitchen-item2.jpg?raw=true);
+}
+
+.casesList-items .casesImg_06 {
+  background-image: url(https://github.com/aquamanda88/greenspringdesign/blob/gh-pages/img/bedroom-item2.jpg?raw=true);
+}
+
+.casesList-items .casesImg_07 {
+  background-image: url(https://github.com/aquamanda88/greenspringdesign/blob/gh-pages/img/bedroom-item4.jpg?raw=true);
+}
+
+.casesList-items .casesImg_08 {
+  background-image: url(https://github.com/aquamanda88/greenspringdesign/blob/gh-pages/img/kitchen-item3.jpg?raw=true);
+}
+
+.pagination {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 0;
+}
+
+.pagination .casesPagi {
+  border: 1px solid #D6F0BB;
+  font-weight: 500;
+}
+
+.pagination .casesPagi:hover {
+  border: 1px solid #D6F0BB;
+  background-color: #F0F0F0;
+}
+
+.pagination .selected, .pagination .selected:hover {
+  background-color: #D6F0BB;
+  color: #5C6B4C;
 }
 /*# sourceMappingURL=all.css.map */
