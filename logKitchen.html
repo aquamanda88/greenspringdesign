@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>北歐輕裝潢－原木廚房｜Green Spring</title>    
+  <link rel="icon" href="img/leaf-nature-forest-brand-plant_icon.ico" type="img/x-icon"/>
+  <meta name='description' content="綠泉室內設計致力於為我們的客戶打造心目中理想的家，讓您的夢想不再是遙不可及。" />
+  <meta property="og:title" content="綠泉室內設計形象網頁" />
+  <meta property="og:description" content="綠泉室內設計致力於為我們的客戶打造心目中理想的家，讓您的夢想不再是遙不可及。">
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="#" />
+  <meta property="og:image" content="https://i.imgur.com/VpuXMaW.png" />
+  <link href="img/leaf-nature-forest-brand-plant_icon.ico" rel="apple-touch-icon" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/hover-min.css">
+  <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+  <!-- 包含 logo 與 選單列表的 Navbar -->
+  <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-white justify-content-between">
+    <a class="navbar-brand" href="index.html">
+      <h1><img src="img/Green Spring.svg" width="150" height="50" alt="logoImg"></h1>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="btn btn-primary px-5" href="javascript: void(0)" data-toggle="modal" data-target="#indexBooking">預約服務</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-primary px-5" href="blog.html">部落格</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-primary px-5" href="javascript: void(0)">關於綠泉設計</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-primary px-5" href="login.html">登入</a>
+          </li>
+        </ul>
+    </div>
+  </nav>
+  <!-- Modal -->
+  <div class="modal fade" id="indexBooking" tabindex="-1" role="dialog" aria-labelledby="indexBookingTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="indexBookingTitle">有設計需求嗎？</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="clientName">姓名</label>
+              <input type="text" class="form-control" id="clientName" placeholder="請輸入您的姓名">
+            </div>
+            <div class="form-group">
+              <label for="clientPhone">電話</label>
+              <input type="phone" class="form-control" id="clientPhone" placeholder="請輸入您的電話">
+            </div>
+            <div class="form-group">
+              <label for="clientEmail">Email</label>
+              <input type="mail" class="form-control" id="clientEmail" placeholder="請輸入您的 Email">
+            </div>            
+            <div class="form-row">
+              <div class="form-group col-6">
+                <label for="clientDistrict">地區</label>
+                <select class="custom-select" id="clientDistrict" aria-label="Example select with button addon">
+                  <option selected disabled>請選擇</option>
+                  <option value="1">北部</option>
+                  <option value="2">中部</option>
+                  <option value="3">南部</option>
+                  <option value="4">東部</option>
+                </select>
+              </div>
+              <div class="form-group col-6">
+                <label for="clientStyle">喜好風格</label>
+                <select class="custom-select" id="clientStyle" aria-label="Example select with button addon">
+                  <option selected disabled>請選擇</option>
+                  <option value="1">現代風</option>
+                  <option value="2">工業風</option>
+                  <option value="3">北歐風</option>
+                  <option value="4">鄉村風</option>
+                  <option value="5">地中海</option>
+                  <option value="6">古典風</option>
+                  <option value="7">簡約風</option>
+                  <option value="8">美式風</option>
+                  <option value="9">日式風</option>
+                  <option value="10">中式風</option>
+                </select>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">立即預約</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <header>
+    <!-- Banner 主視覺 -->
+    <section class="casesWork_banner jumbotron jumbotron-fluid"></section>
+  </header>
+  <!-- Main 主要內容 -->
+  <main class="logKitchen_wrap container">
+    <div class="d-flex flex-column flex-md-row justify-content-md-between mb-7">
+      <h2 class="logKitchen_title">北歐輕裝潢｜原木廚房</h2>
+      <a class="shareBtn btn btn-outline-primary d-flex align-items-center" href="javascript: void(0)">
+        <i class="fas fa-share-square mr-1"></i>
+        <span>分享</span>
+      </a>
+    </div>
+    <div class="row flex-column flex-lg-row align-items-lg-start">
+      <div class="col-12 col-lg-4 d-flex flex-column justify-content-center">
+        <a class="designerBtn" href="EmilyChen.html">
+          <div class="d-flex align-items-center mb-7">
+            <div class="Emily_avatar caseWork_avatar mr-3"></div>
+            <h4>陳珮瑄</h4>
+          </div>
+        </a>
+        <ul class="casesWork_info d-flex flex-wrap pl-0">
+          <li class="w-50">
+            <h5>風格</h5>
+            <p>北歐風</p>
+          </li>
+         <li class="w-50">
+            <h5>類型</h5>
+            <p>新屋裝修</p>
+          </li>
+         <li>
+            <h5>格局</h5>
+            <p>3 房 2 廳</p>
+          </li>
+         <li>
+            <h5>建材</h5>
+            <p>原木系統廚具、鑄鐵零件、藤編盛具、人造石材、玻璃</p>
+          </li>
+          <li>
+            <h5>介紹</h5>
+            <p>本次專案為位於新北市汐止的新屋裝潢，由陳珮瑄設計師進行設計及規劃，以北歐風為基底，搭配原木色的色調打造出溫馨的開放式廚房。</p>
+            <p>屋主希望廚房不只是烹調空間，也能是家人相聚放鬆的場所，因此規劃一整面落地窗和大型中島，讓陽光能透進廚房，滿足需要在中島上閱讀書寫的要求。</p>
+          </li>
+        </ul>
+      </div>
+      <section class="casesWork_content col-12 col-lg-8">
+        <figure>
+          <img class="mb-4" src="img/logKitchen.jpg" alt="logKitchen">
+          <img src="img/logKitchen-2.jpg" alt="logKitchen">
+        </figure>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <form>
+      <div class="container">
+        <h3 class="footer_basicTitle">有任何需要我們幫助您的地方嗎？</h3>
+        <h5 class="footer_basicContent">輸入電子信箱<br>將有專業人員協助您解決所有問題</h5>
+        <div class="row">
+          <div class="input-group col-12 col-lg-6">
+            <input type="email" class="form-control" placeholder="example@gmail.com" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-primary" type="button" id="button-addon2">送出</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+    <div class="footer-otherLinks container">
+      <div class="row justify-content-center mb-10">
+        <div class="col-12 col-md-6 col-lg-3">
+          <a href="index.html"><img class="footerLogo" src="img/Green Spring.svg" alt="footerLogo"></a>
+          <ul class="d-flex flex-wrap flex-column flex-md-row flex-lg-column">
+            <li><a class="footer-linksItem" href="javascript: void(0)">關於我們</a></li>
+            <li><a class="footer-linksItem" href="javascript: void(0)">幫助中心</a></li>
+            <li><a class="footer-linksItem" href="javascript: void(0)">使用條款</a></li>
+            <li><a class="footer-linksItem" href="javascript: void(0)">隱私政策</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <h5>探索</h5>
+          <ul class="d-flex flex-wrap flex-column flex-md-row flex-lg-column">
+            <li><a class="footer-linksItem" href="blog.html">部落格</a></li>
+            <li><a class="footer-linksItem" href="javascript: void(0)">找設計師</a></li>
+            <li><a class="footer-linksItem" href="casesList.html">作品案例</a></li>
+            <li><a class="footer-linksItem" href="javascript: void(0)">設計規劃</a></li>
+            <li><a class="footer-linksItem" href="javascript: void(0)">新屋裝潢</a></li>
+            <li><a class="footer-linksItem" href="javascript: void(0)">舊屋翻新</a></li>
+            <li><a class="footer-linksItem" href="javascript: void(0)">環保認證</a></li>            
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <h5>支援</h5>
+          <ul class="d-flex flex-wrap flex-column flex-md-row flex-lg-column">
+            <li><a class="footer-linksItem" href="javascript: void(0)">加入我們</a></li>
+            <li><a class="footer-linksItem" href="javascript: void(0)">文章投稿</a></li>
+            <li><a class="footer-linksItem" href="javascript: void(0)">合作提案</a></li>
+            <li><a class="footer-linksItem" href="javascript: void(0)">常見問題</a></li>              
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <h5>聯繫我們</h5>
+          <a class="linkBtn" href="mailto:greenspring@gsmail.com">greenspring@gsmail.com</a>
+          <a class="linkBtn d-block d-md-none" href="tel:+02-1234-4567">02-1234-4567</a>
+        </div>
+      </div>
+      <div class="d-flex justify-content-between">       
+        <a class="linkBtn d-none d-md-block" href="tel:+02-1234-4567">
+          <i class="fas fa-phone mr-2"></i>02-1234-4567
+        </a>
+        <p class="copyrightText text-right mb-0">Copyright © 2020 Green Spring All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
