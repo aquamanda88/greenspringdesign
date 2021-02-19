@@ -1,0 +1,41 @@
+.casesWork_banner {
+  background-image: url(https://github.com/aquamanda88/greenspringdesign/blob/gh-pages/img/kitchen-item1.jpg?raw=true);
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+}
+
+.caseWork_avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.casesWork_content .card {
+  -webkit-box-flex: 45%;
+      -ms-flex: 45%;
+          flex: 45%;
+  margin-left: 0;
+  margin-bottom: 15px;
+}
+
+.casesWork_content .card-body .starLevel {
+  margin-bottom: 0.5rem;
+}
+
+.casesWork_content .card-body .starLevel .fa-star, .casesWork_content .card-body .starLevel .fa-star:hover {
+  color: #F5DF4D;
+}
+
+.casesWork_content .card-body .starLevel .fa-star {
+  margin-right: 0.25rem;
+}
+
+.casesWork_content .card-body .card-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/*# sourceMappingURL=logKitchen.css.map */

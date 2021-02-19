@@ -1,0 +1,248 @@
+.banner {
+  background-image: url(https://i.imgur.com/5xjilDR.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 6.5rem 0;
+  margin-bottom: 0;
+}
+
+.banner .dark-mask {
+  background-color: rgba(92, 107, 76, 0.5);
+}
+
+.banner .banner_content {
+  color: #fff;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.banner .banner_content .lead {
+  margin-bottom: 0;
+}
+
+.bannerSlogan {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+}
+
+.quicklySearch {
+  background-image: url(https://i.imgur.com/rM3QuSA.jpg);
+}
+
+.quicklySearch .light-mask {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.quicklySearch .contentSearch {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.quicklySearch .contentSearch .searchTitle {
+  font-size: 2.5rem;
+  line-height: 3.75rem;
+  margin-bottom: 1rem;
+}
+
+.quicklySearch .contentSearch .searchContent {
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  margin-bottom: 3rem;
+}
+
+.quicklySearch .contentSearch .searchBtn {
+  padding: 0 2.5rem;
+}
+
+.basicTitle {
+  margin-bottom: 0.25rem;
+  font-size: 2rem;
+  line-height: 3rem;
+  font-weight: 700;
+}
+
+.basicContent {
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.mostHot_designer .imgCube {
+  height: 120px;
+  overflow: hidden;
+}
+
+.mostHot_designer .imgCube:hover .card-img-top {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+}
+
+.mostHot_designer .card-title {
+  margin-bottom: 0.25rem;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.mostHot_designer .card-para {
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.mostHot_designer .card-img-top {
+  height: 120px;
+  -webkit-transition: -webkit-transform .7s;
+  transition: -webkit-transform .7s;
+  transition: transform .7s;
+  transition: transform .7s, -webkit-transform .7s;
+}
+
+.mostHot_designer .card-img-top, .mostHot_designer .avatar {
+  background-position: center;
+  background-size: cover;
+}
+
+.mostHot_designer .Emily_work {
+  background-image: url(https://i.imgur.com/MBm2vuH.jpg);
+}
+
+.mostHot_designer .Steven_work {
+  background-image: url(https://i.imgur.com/S62UfLX.jpg);
+}
+
+.mostHot_designer .Gina_work {
+  background-image: url(https://i.imgur.com/js1vbNC.jpg);
+}
+
+.mostHot_designer .avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  border: solid 3px #fff;
+  margin: -2.5rem auto -1rem auto;
+  position: relative;
+  z-index: 100;
+}
+
+.mostHot_designer .Emily_avatar {
+  background-image: url(https://i.imgur.com/DCU0BR3.jpg);
+}
+
+.mostHot_designer .Steven_avatar {
+  background-image: url(https://i.imgur.com/mCxjXjP.jpg);
+}
+
+.mostHot_designer .Gina_avatar {
+  background-image: url(https://i.imgur.com/i99N8Qe.jpg);
+}
+
+.mostHot_designer .bookingBtn {
+  width: 160px;
+}
+
+.gridBlock {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.gridImg, .gridImg-half {
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+
+.gridImg:hover, .gridImg-half:hover {
+  opacity: 0.7;
+}
+
+.gridImg {
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+}
+
+.gridImg .dark-mask {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 350px;
+}
+
+.gridImg-half {
+  background-position: center;
+  background-size: cover;
+  height: 172px;
+}
+
+.gridImg-half .dark-mask-half {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 172px;
+}
+
+.casesList {
+  background-image: url(https://i.imgur.com/rfzvQYr.jpg);
+}
+
+.designPlan {
+  background-image: url(https://i.imgur.com/X8ysdue.jpg);
+}
+
+.newHouse {
+  background-image: url(https://i.imgur.com/ALwmr8h.jpg);
+}
+
+.oldHouse {
+  background-image: url(https://i.imgur.com/R1Bov3X.jpg);
+}
+
+.ecology {
+  background-image: url(https://i.imgur.com/bBSODgM.jpg);
+}
+
+.havedList {
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(https://i.imgur.com/maBASij.jpg);
+  color: #fff;
+}
+
+.havedList .dark-mask {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.havedList .dataItem {
+  padding-left: 1rem;
+  padding-right: 1.875rem;
+  border-left: solid 3px #fff;
+}
+
+.havedList .dataItem .dataTitle {
+  font-size: 3rem;
+  line-height: 4.5rem;
+}
+
+.havedList .dataItem .dataPara {
+  font-size: 1.35rem;
+  line-height: 1.875rem;
+}
+
+.bookingImg {
+  background-color: #F5F5F5;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 160px;
+}
+
+.serviceImg {
+  background-image: url(https://pic.stackoverflow.wiki/uploadImages/1/163/97/188/2021/02/12/22/35/20a78b72-97e7-4cdb-8a3a-75950f564a4b.svg);
+}
+
+.designerImg {
+  background-image: url(https://pic.stackoverflow.wiki/uploadImages/1/163/97/188/2021/02/12/22/34/4bef983f-91ce-46ea-8a29-2927675029f8.svg);
+}
+
+.finishImg {
+  background-image: url(https://pic.stackoverflow.wiki/uploadImages/1/163/97/188/2021/02/12/22/35/984d6d21-7bef-4c61-ac35-52aba38368f3.svg);
+}
+/*# sourceMappingURL=index.css.map */

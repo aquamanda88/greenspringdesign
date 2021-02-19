@@ -1,0 +1,39 @@
+.dark-mask {
+  padding: 1.25rem;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.blogImg {
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+
+.ChristinaImg {
+  background-image: url(https://i.imgur.com/9LW5V8L.jpg);
+}
+
+.blog-Img1 {
+  background-image: url(https://images.unsplash.com/photo-1519976691384-bd9c1d4a95fd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+}
+
+.blog-Img2 {
+  background-image: url(https://images.unsplash.com/photo-1610708946194-c3fc12c424d1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+}
+
+.blog-Img3 {
+  background-image: url(https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1467&q=80);
+}
+/*# sourceMappingURL=blog.css.map */

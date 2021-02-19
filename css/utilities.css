@@ -1,0 +1,12 @@
+.ff-serif {
+  font-family: "Noto Serif TC";
+}
+
+.d-none, .d-md-block, .d-lg-block {
+  display: none;
+}
+
+.d-block, .d-md-block, .d-lg-block {
+  display: block;
+}
+/*# sourceMappingURL=utilities.css.map */
