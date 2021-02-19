@@ -1,3 +1,24 @@
 .ff-serif{
     font-family: "Noto Serif TC";
 }
+.d-none, .d-md-block, .d-lg-block{
+    display: none;
+}
+.d-block, .d-md-block, .d-lg-block{
+    display: block;
+}
+@mixin pad{
+    @media(max-width: 768px){
+      @content;
+    }
+}
+@mixin mobileM{
+    @media(max-width: 425px){
+      @content;
+    }
+}
+@mixin mobileS{
+    @media(max-width: 375px){
+      @content;
+    }
+}

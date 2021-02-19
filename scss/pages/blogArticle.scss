@@ -1,0 +1,39 @@
+.blogBanner{
+    background-image: url(https://github.com/aquamanda88/greenspringdesign/blob/gh-pages/img/blog-Christina1.jpg?raw=true);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 0;
+    @include mobileM{
+        background-size: cover;
+    }
+    .blog-mask{
+        background-color: rgba(0, 0, 0, 0.1);
+        background-image: linear-gradient(to bottom, transparent, #000);
+    }
+    .banner_content{
+        color: #fff;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        height: 400px;
+        @include mobileM{
+            padding: 1.25rem; //20px
+        }
+        .blogTitle{
+            @include mobileM{
+                font-size: 2.25rem; //36px
+            }
+            @include mobileS{
+                font-size: 2rem; //32px
+            }
+        }
+        .lead{
+            margin-bottom: 0;
+            .badge{
+                margin-right: 1rem; //16px
+            }
+        }
+    }
+}
+.badge{
+    font-weight: 300;
+}

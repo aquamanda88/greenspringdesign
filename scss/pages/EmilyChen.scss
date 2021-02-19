@@ -1,0 +1,56 @@
+.personalBanner{
+    background-image: url(https://github.com/aquamanda88/greenspringdesign/blob/gh-pages/img/EmilyChen-work.jpg?raw=true);
+    background-position: center;
+    background-size: cover;
+    height: 353px;
+}
+.personalAvatar{
+    background-position: center;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: solid 3px #fff;
+    margin: -7rem auto -1rem auto;
+    position: relative;
+    z-index: 100;
+}
+.personalTitle{
+    margin-top: 1.875rem; //30px
+    margin-bottom: 1.875rem; //30px
+}
+.EC_border{
+    padding-top: 1.875rem; //30px
+}
+.moreBtn{
+    margin-bottom: 1.875rem; //30px
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: fit-content;
+}
+.reviews{
+    .casesList-items{
+        justify-content: space-evenly;
+    }
+    .card-deck .card{
+        flex: 0 0 45%;
+        margin-bottom: 1.875rem; //30px
+    }
+    .card-body{
+        .starLevel{
+            margin-bottom: 0.5rem;
+            .fa-star, .fa-star:hover{
+                color: #F5DF4D;
+            }
+            .fa-star{
+                margin-right: 0.25rem;
+            }
+        }
+        .card-text{
+            overflow : hidden;
+            text-overflow : ellipsis;
+            white-space : nowrap;
+        }
+    }
+}

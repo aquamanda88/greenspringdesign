@@ -1,17 +1,28 @@
 .cases_banner{
-    background-image: url(https://i.imgur.com/Cn0xAaM.jpg);
+    background-image: url(https://github.com/aquamanda88/greenspringdesign/blob/gh-pages/img/casesList-banner.jpg?raw=true);
     background-position: center;
     background-size: contain;
     background-attachment: fixed;
     margin-bottom: 0;
+    @include mobileM{
+        background-size: cover;
+    }
     .dark-mask{
         background-color: rgba(0, 0, 0, 0.5);
-        padding: 6.5rem 0;
+        height: 400px;
     }
     .banner_content{
         color: #fff;
         padding-top: 1.25rem;
         padding-bottom: 1.25rem;
+        .case_bannerTitle{
+            @include mobileM{
+                font-size: 2.25rem; //36px
+            }
+            @include mobileS{
+                font-size: 2rem; //32px
+            }
+        }
         .lead{
             margin-bottom: 0;
         }
@@ -22,10 +33,10 @@
     width: 100%;
 }
 .Michael_work{
-    background-image: url(https://i.imgur.com/sjLYU28.jpg);
+    background-image: url(https://github.com/aquamanda88/greenspringdesign/blob/gh-pages/img/MichaelWang-work.jpg?raw=true);
 }
 .Michael_avatar{
-    background-image: url(https://images.unsplash.com/photo-1534471770828-9bde524ee634?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1500&q=80);
+    background-image: url(https://github.com/aquamanda88/greenspringdesign/blob/gh-pages/img/MichaelWang-avatar.jpg?raw=true);
 }
 .swiper-button-prev, .swiper-button-next{
     font-size: 2.5rem;
@@ -42,6 +53,16 @@
 .swiper-button-prev, .swiper-button-next{
     border: none;
     outline: none;
+}
+.fa-chevron-circle-left{
+    @include mobileM{
+        margin-left: 0.625rem; //10px
+    }
+}
+.fa-chevron-circle-right{
+    @include mobileM{
+        margin-right: 0.625rem; //10px
+    }
 }
 
 .casesList-items{
@@ -82,28 +103,28 @@
         }
     }
     .casesImg_01{
-        background-image: url(https://github.com/aquamanda88/greenspringdesign/blob/gh-pages/img/kitchen-item1.jpg?raw=true);
+        background-image: url(https://github.com/aquamanda88/greenspringdesign/blob/gh-pages/img/casesImg_01.jpg?raw=true);
     }
     .casesImg_02{
-        background-image: url(https://github.com/aquamanda88/greenspringdesign/blob/gh-pages/img/livingRoom-item1.jpg?raw=true);
+        background-image: url(https://github.com/aquamanda88/greenspringdesign/blob/gh-pages/img/casesImg_02.jpg?raw=true);
     }
     .casesImg_03{
-        background-image: url(https://github.com/aquamanda88/greenspringdesign/blob/gh-pages/img/bathroom-item1.jpg?raw=true);
+        background-image: url(https://github.com/aquamanda88/greenspringdesign/blob/gh-pages/img/casesImg_03.jpg?raw=true);
     }
     .casesImg_04{
-        background-image: url(https://github.com/aquamanda88/greenspringdesign/blob/gh-pages/img/livingRoom-item4.jpg?raw=true);
+        background-image: url(https://github.com/aquamanda88/greenspringdesign/blob/gh-pages/img/casesImg_04.jpg?raw=true);
     }
     .casesImg_05{
-        background-image: url(https://github.com/aquamanda88/greenspringdesign/blob/gh-pages/img/kitchen-item2.jpg?raw=true);
+        background-image: url(https://github.com/aquamanda88/greenspringdesign/blob/gh-pages/img/casesImg_05.jpg?raw=true);
     }
     .casesImg_06{
-        background-image: url(https://github.com/aquamanda88/greenspringdesign/blob/gh-pages/img/bedroom-item2.jpg?raw=true);
+        background-image: url(https://github.com/aquamanda88/greenspringdesign/blob/gh-pages/img/casesImg_06.jpg?raw=true);
     }
     .casesImg_07{
-        background-image: url(https://github.com/aquamanda88/greenspringdesign/blob/gh-pages/img/bedroom-item4.jpg?raw=true);
+        background-image: url(https://github.com/aquamanda88/greenspringdesign/blob/gh-pages/img/casesImg_07.jpg?raw=true);
     }
     .casesImg_08{
-        background-image: url(https://github.com/aquamanda88/greenspringdesign/blob/gh-pages/img/kitchen-item3.jpg?raw=true);
+        background-image: url(https://github.com/aquamanda88/greenspringdesign/blob/gh-pages/img/casesImg_08.jpg?raw=true);
     }
 }
 .pagination{

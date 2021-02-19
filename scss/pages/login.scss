@@ -1,0 +1,26 @@
+.loginTitle{
+    margin-bottom: 3.75rem; //60px
+    @include pad{
+        margin-bottom: 1rem; //16px
+    }
+}
+.loginImg{
+    background-image: url(https://github.com/aquamanda88/greenspringdesign/blob/gh-pages/img/loginBanner.jpg?raw=true);
+    background-size: cover;
+    background-position: center;
+    @include pad{
+        display: none;
+    }
+}
+.socialMedia-btn{
+    margin-bottom: 2.5rem; //40px
+    @include pad{
+        margin-bottom: 0.5rem; //8px
+    }
+}
+.fa-facebook-f{
+    color: #3B5998;
+}
+.fa-google{
+    color: #EA4335;
+}
